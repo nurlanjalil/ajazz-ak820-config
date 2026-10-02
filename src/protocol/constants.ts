@@ -8,7 +8,7 @@ export const AJAZZ_VENDOR_ID = 0x0c45;
  * Sonix reuses nearby product IDs across unrelated keyboards, so additional
  * IDs require an AK820 Pro-specific descriptor or USB capture before inclusion.
  */
-export const AK820_PRO_PRODUCT_IDS: readonly number[] = [0x8009] as const;
+export const AK820_PRO_PRODUCT_IDS: readonly number[] = [0x8009, 0x800a] as const;
 
 /** TFT screen dimensions. */
 export const SCREEN_WIDTH = 128;
