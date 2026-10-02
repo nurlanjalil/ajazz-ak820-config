@@ -16,7 +16,7 @@ describe("protocol constants", () => {
   });
 
   test("only includes the hardware-confirmed original AK820 Pro PID", () => {
-    expect(AK820_PRO_PRODUCT_IDS).toEqual([0x8009]);
+    expect(AK820_PRO_PRODUCT_IDS).toEqual([0x8009, 0x800a]);
   });
 
   test("screen is 128x128", () => {
